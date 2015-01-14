@@ -55,6 +55,8 @@ public class TextLab11aChivallativ80
 	{
 
 		for ( int i = 0 ; i < notPrime.length ; i++ )
+
+
 		{
 
 			if ( !notPrime[i] ) // for every false part in the array

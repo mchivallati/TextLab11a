@@ -18,9 +18,6 @@ public class TextLab11aChivallativ100
 
 		final int MAX = input.nextInt();
 
-		if ( MAX == 420 )
-			System.out.println( "OG BOBBY JOHNSON has computed your prime numbers" );
-
 		displayPrimes( computePrimes( MAX ) );
 
 	}
@@ -64,7 +61,7 @@ public class TextLab11aChivallativ100
 			if ( !notPrime[i] ) // for every false part in the array
 			{
 
-				System.out.print( i + " " ); // print i which represents the prime number
+				System.out.print( String.format( "%04" , String.valueOf(i) ) + " " ); // print i which represents the prime number
 
 			}
 
