@@ -61,7 +61,7 @@ public class TextLab11aChivallativ100
 			if ( !notPrime[i] ) // for every false part in the array
 			{
 
-				System.out.print( String.format( "%04" , String.valueOf(i) ) + " " ); // print i which represents the prime number
+				System.out.print( String.format( "%04d" , i ) + " " ); // print i which represents the prime number
 
 			}
 
